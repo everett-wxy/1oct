@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h2 class="col-md-12">Scissors Paper Stone</h2>
+      </div>
+      <div class="row" id="buttons">
+        <button class="col" id="scissors">Scissors</button>
+        <button class="mx-1" id="paper">Paper</button>
+        <button class="col" id="stone">Stone</button>
+      </div>
+      <div class="row">
+        <div class="col-md-8"></div>
+        <div class="col-md-4 borders" id="score">Score:</div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 borders" id="result">&nbsp;</div>
+      </div>
+      <div class="row">
+        <div class="col-md-8"></div>
+        <button class="col-md-4 borders" id="reset">Reset</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

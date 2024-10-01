@@ -1,0 +1,25 @@
+User stories:
+As a user, I want to view a landing page, to know I am at the right url. 
+As a user, I wamt to be able to make my choice of scissors/paper/stone. 
+As a user, I want to know if I won/lost. 
+
+
+Pseudo code is the logic behind a program: 
+what you want the program to function. 
+
+
+1. define all variables (things that can be changed)
+    - score
+    - computer choice
+    - player's input
+    - results
+2. define the constants: 
+    - scissors paper stone
+    - score HTML element 
+    - result HTML element
+3. handle button clicks (defining functions)
+4. generates computer selection (random)
+5. compare the results (define the conditional flows)
+6. display results
+7. update score
+8. replay 
